@@ -1,0 +1,184 @@
+/*@font-face {
+  font-family: myFirstFont;
+  src: url(beyno.ttf);
+}
+.logo{
+  width: 10%;
+  position: fixed;
+  top: 0;
+}
+.name {
+  /* padding-left: 45%;*
+  font-family: beyno;
+  display: inline-block;
+  width: 150px;
+    <img src="images/faviconex.png" class="logo" alt="logo nav header" />
+}
+
+*/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Montserrat Alternates", sans-serif;
+ background-color: #222222;
+}
+
+h1 {
+  color: #735F32;
+  font-size: 4.375em;
+  width: 40%;
+  margin: 50px auto 0px auto;
+  font-family: "Comfortaa", cursive;
+  line-height: 1;
+}
+
+hr {
+  background-color: inherit;
+   border-style: none;
+   border-top-style: dotted;
+   border-color: #282A3A;
+   border-width: 5px;
+   width: 5%;
+}
+
+h2{
+  color: #C69749;
+  padding-bottom: 30px;
+}
+h3{
+  color: #C69749;
+  padding-bottom: 10px;
+}
+p{
+  color: white;
+  width: 25%;
+  margin: 0px auto 0px auto;
+}
+.name {
+  color: #735F32;
+}
+.h22{
+  color: #735F32;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+a{
+  color: #735F32;
+  text-decoration: none;
+}
+a:hover{
+  color: #C69749;
+}
+.top-container {
+  background-color: #C69749;
+  
+  position: relative;
+  padding-top: 100px;
+}
+.topcloud{
+  position: absolute;
+  right: 18.75rem;
+  top: 3.125rem;
+}
+.bottomcloud{
+  position: absolute;
+  left: 18.75rem;
+  bottom: 18.75rem;
+}
+.logo{
+  width: 7%;
+  position: fixed;
+  top:0;
+  left:0.625rem;
+}
+.saadiqimg{
+  height: 10%;
+  width: 10%;
+  padding-top: 3.25rem;
+}
+.skillimg
+{
+  height: 10%;
+  width: 10%;
+  float: left;
+  margin-right: 30px;
+}
+.skillimg2{
+  height: 10%;
+  width: 10%;
+  float:right ;
+  margin-left: 30px;
+}
+
+.skill-row{
+  margin: 50px auto 50px auto;
+  width: 30%;
+  text-align: left;
+  line-height: 2;
+}
+.bottom-container{
+  background-color: #282A3A;
+  padding-top: 1.25rem;
+  padding-bottom: 5px;
+}
+.footer-link{
+  padding-right: 2.5rem;
+  padding-bottom: 2rem;
+}
+.footernote{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.contact-me{
+  margin-bottom: 3rem; 
+}
+.finalp{
+  padding-bottom: 1.5rem;
+}
+.btn {
+  background-color: transparent;
+  border: 1px solid #C69749;
+  box-sizing: border-box;
+  color: #282A3A;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn:hover,
+.btn:active {
+  outline: 0;
+}
+
+.btn:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn:before {
+  background-color: #C69749;
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+.btn:hover:before {
+  background-color: #735F32;
+}
+
+@media (min-width: 768px) {
+  .btn {
+    padding: 16px 32px;
+  }
+}
